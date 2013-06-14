@@ -30,7 +30,7 @@ int Scintilla_LinkLexers();
  * hold a pointer and sptr_t, a signed integer large enough to hold a pointer.
  * May need to be changed for 64 bit platforms. */
 #if defined(_WIN32)
-#include <basetsd.h>
+//#include <basetsd.h>
 #endif
 #ifdef MAXULONG_PTR
 typedef ULONG_PTR uptr_t;
